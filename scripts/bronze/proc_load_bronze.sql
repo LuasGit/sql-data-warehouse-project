@@ -143,7 +143,7 @@ BEGIN
     RAISE NOTICE 'Load Time Duration Batch: %', (batch_end_time - batch_start_time);
     RAISE NOTICE '-----------------------';
 
--- 4. Manejo de Errores (Reemplazo de CATCH)
+-- 4. Manejo de Errores
 EXCEPTION WHEN OTHERS THEN
     RAISE NOTICE 'ERROR OCCURRED: %', SQLERRM;
     ROLLBACK;

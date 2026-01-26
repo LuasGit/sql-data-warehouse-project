@@ -27,6 +27,7 @@ CREATE TABLE silver.crm_prd_info
 );
 
 -- TABLA 3: Ventas (CRM) - ¡La más importante!
+DROP TABLE silver.crm_sales_details;
 CREATE TABLE silver.crm_sales_details
 (
     sls_ord_num     VARCHAR(50),
@@ -42,8 +43,7 @@ CREATE TABLE silver.crm_sales_details
 );
 
 -- TABLAS ERP (LEGACY)
--- Nota: En Silver solemos renombrar columnas feas (CID -> cst_id),
--- pero si sigues el tutorial, mejor mantén los nombres originales por ahora.
+-- Nota: En Silver solemos renombrar columnas feas (CID -> cst_id)
 
 CREATE TABLE silver.erp_cust_az12
 (
