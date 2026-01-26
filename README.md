@@ -61,7 +61,7 @@ The project follows a Multi-Layer Architecture...
 
 2.  **Database Initialization:**
     Run the setup script to create the database and schemas:
-    * `init_data_base.sql`
+    * `scripts/init_data_base.sql`
 
 3.  **Create Tables (DDL):**
     Execute the DDL scripts for each layer to set up the table structures:
@@ -126,7 +126,7 @@ The project follows a Multi-Layer Architecture...
 
 2.  **Inicialización de Base de Datos:**
     Ejecutar el script de configuración para crear la base de datos y los esquemas:
-    * `init_data_base.sql`
+    * `scripts/init_data_base.sql`
 
 3.  **Creación de Tablas (DDL):**
     Ejecutar los scripts DDL de cada capa para crear las estructuras de las tablas:
