@@ -58,7 +58,7 @@ WHERE xprd.prd_end_dt IS NULL; -- Solo productos activos actual
 -- Create Fact Table: gold.fact_sales
 -- =============================================================================
 CREATE OR REPLACE VIEW gold.fact_sales AS
-SELECT xsls.sls_ord_num  AS order_name,
+SELECT xsls.sls_ord_num  AS order_number,
        xprd.product_key,
        xcus.customer_key,
        xsls.sls_order_dt AS order_date,
